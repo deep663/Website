@@ -50,7 +50,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <a href="#services" className="hover:text-cyan-500 transition">
+              <a href="/services" className="hover:text-cyan-500 transition">
                 SERVICES
               </a>
             </li>
@@ -60,7 +60,7 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a href="#contact" className="hover:text-cyan-500 transition">
+              <a href="/#contact" className="hover:text-cyan-500 transition">
                 CONTACT US
               </a>
             </li>
@@ -75,27 +75,27 @@ const Header = () => {
         <nav className="md:hidden">
           <ul className="flex flex-col space-y-4 mt-4 text-center text-base">
             <li>
-              <a href="#" className="hover:text-blue-300 transition">
+              <a href="/#" className="hover:text-blue-300 transition">
                 HOME
               </a>
             </li>
             <li>
-              <a href="#about " className="hover:text-blue-300 transition">
+              <a href="/#about " className="hover:text-blue-300 transition">
                 ABOUT US
               </a>
             </li>
             <li>
-              <a href="#services" className="hover:text-blue-300 transition">
+              <a href="/#services" className="hover:text-blue-300 transition">
                 SERVICES
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-blue-300 transition">
+              <a href="/#" className="hover:text-blue-300 transition">
                 BLOG
               </a>
             </li>
             <li>
-              <a href="#contact" className="hover:text-blue-300 transition">
+              <a href="/#contact" className="hover:text-blue-300 transition">
                 CONTACT US
               </a>
             </li>

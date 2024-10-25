@@ -1,23 +1,25 @@
-import AboutUs from "./components/AboutUs";
-import CallToAction from "./components/CallToAction";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Services from "./components/Services";
-import Testimonials from "./components/Testimonial";
-import '@fortawesome/fontawesome-free/css/all.min.css'; 
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import Home from './pages/Home';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import About from './pages/AboutPage';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ServicesPage from './pages/ServicesPage';
 
 function App() {
   return (
-    <div className="font-sans">
-      <Header />
-      <Hero />
-      <Services />
-      <AboutUs/>
-      <Testimonials />
-      <CallToAction/>
-      <Footer />
-    </div>
+    <>
+      <Router>
+        <Header />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<ServicesPage />} />
+          <Route path="*" element={<Home />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </>
   );
 }
 

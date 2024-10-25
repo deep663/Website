@@ -23,8 +23,8 @@ const testimonialsData = [
 
 const Testimonials = () => {
   return (
-    <section className="text-center py-12 bg-black text-white">
-      <h2 className="text-blue-400 text-sm font-semibold uppercase mb-2">Testimonials</h2>
+    <section id="testimonials" className="text-center py-12 bg-black text-white">
+      <h2 className="text-cyan-500 text-sm font-semibold uppercase mb-2">Testimonials</h2>
       <h1 className="text-3xl font-bold mb-4">Client Stories: Voice Of Success</h1>
       <p className="text-gray-400 mb-12">Here are some reviews from our clients:</p>
       <div className="flex flex-wrap justify-center gap-8">

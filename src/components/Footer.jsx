@@ -1,12 +1,14 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
       <footer className="py-10 bg-black text-white">
           <div className="container mx-auto px-4">
               <div className="flex flex-wrap justify-between space-y-8 md:space-y-0">
                   {/* Branding and Social Links */}
-                  <div className="w-full md:w-1/4">
-                      <h2 className="text-lg font-bold text-cyan-500">BINYTE</h2>
-                      <p className="mt-2 text-sm text-gray-400">Binyte is a profound website, operated by professionals in every field mentioned on the website.</p>
+                  <div className="w-full md:w-2/5">
+                      <h2 className="text-3xl font-bold text-cyan-500">BINYTE</h2>
+                      <p className="mt-2 text-lg text-gray-400">Binyte is a profound website, operated by professionals in every field mentioned on the website.</p>
                       <div className="flex mt-4 space-x-4">
                           <a href="#" className="text-gray-400 hover:text-cyan-500" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
                           <a href="#" className="text-gray-400 hover:text-cyan-500" aria-label="Twitter"><i className="fab fa-x-twitter"></i></a>
@@ -14,28 +16,31 @@ const Footer = () => {
                       </div>
                   </div>
                   {/* Company Links */}
-                  <div className="w-full md:w-1/4">
-                      <h3 className="text-sm font-bold text-white">COMPANY</h3>
+                  <div className="w-full md:w-1/5">
+                      <h3 className="text-lg font-bold text-white">COMPANY</h3>
+                      <div className="mt-4 mb-8 border-t border-cyan-500 w-1/3"></div>
                       <ul className="mt-2 space-y-2 text-sm text-gray-400">
-                          <li><a href="#" className="hover:text-cyan-500">About Us</a></li>
-                          <li><a href="#" className="hover:text-cyan-500">Services</a></li>
+                          <li><Link to="/about" className="hover:text-cyan-500">About Us</Link></li>
+                          <li><Link to="/services" className="hover:text-cyan-500">Services</Link></li>
                           <li><a href="#" className="hover:text-cyan-500">Work</a></li>
                           <li><a href="#" className="hover:text-cyan-500">Information</a></li>
                       </ul>
                   </div>
                   {/* Information Links */}
-                  <div className="w-full md:w-1/4">
-                      <h3 className="text-sm font-bold text-white">INFORMATION</h3>
+                  <div className="w-full md:w-1/5">
+                      <h3 className="text-lg font-bold text-white">INFORMATION</h3>
+                      <div className="mt-4 mb-8 border-t border-cyan-500 w-1/3"></div>
                       <ul className="mt-2 space-y-2 text-sm text-gray-400">
                           <li><a href="#" className="hover:text-cyan-500">Blog</a></li>
-                          <li><a href="#" className="hover:text-cyan-500">Contact Us</a></li>
+                          <li><a href="#contact" className="hover:text-cyan-500">Contact Us</a></li>
                           <li><a href="#" className="hover:text-cyan-500">Career</a></li>
-                          <li><a href="#" className="hover:text-cyan-500">Testimonials</a></li>
+                          <li><a href="#testimonials" className="hover:text-cyan-500">Testimonials</a></li>
                       </ul>
                   </div>
                   {/* Contact Information */}
-                  <div className="w-full md:w-1/4">
-                      <h3 className="text-sm font-bold text-white">ADDRESS</h3>
+                  <div className="w-full md:w-1/5">
+                      <h3 className="text-lg font-bold text-white">ADDRESS</h3>
+                      <div className="mt-4 mb-8 border-t border-cyan-500 w-1/3"></div>
                       <ul className="mt-2 space-y-2 text-sm text-gray-400">
                           <li><a href="mailto:binyte123@gmail.com" className="hover:text-cyan-500">binyte123@gmail.com</a></li>
                           <li><a href="tel:+917493069095" className="hover:text-cyan-500">+91 7493069095</a></li>
@@ -45,7 +50,7 @@ const Footer = () => {
                   </div>
               </div>
               {/* Separator */}
-              <div className="mt-10 border-t border-gray-700"></div>
+              <div className="mt-10 border-t border-cyan-500"></div>
               {/* Copyright */}
               <div className="text-center mt-6 text-sm text-gray-400">
                   <p>&copy; {new Date().getFullYear()} Binyte. All rights reserved.</p>

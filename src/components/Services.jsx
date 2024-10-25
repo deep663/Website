@@ -33,12 +33,12 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-black text-white">
+    <div id="services" className="flex items-center justify-center min-h-screen bg-black text-white">
       <div className="max-w-5xl mx-auto p-6">
         <div className="text-center mb-8">
           <div className="flex flex-col md:flex-row items-center md:items-start justify-between">
             <div className="md:w-2/3 text-left">
-              <h2 className="text-blue-400 text-lg">OUR SERVICES</h2>
+              <h2 className="text-cyan-500 text-lg">OUR SERVICES</h2>
               <h1 className="text-3xl md:text-4xl font-bold mt-2">What we do for you?</h1>
             </div>
             <div className="md:w-1/3 mt-4 md:mt-0 text-left">
@@ -51,7 +51,7 @@ const Services = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {servicesData.map((service, index) => (
             <div key={index} className="bg-gray-800 p-6 rounded-lg text-center hover:bg-gray-700 transition duration-300">
-              <i className={`${service.icon} text-4xl text-blue-400 mb-4`}></i>
+              <i className={`${service.icon} text-4xl text-cyan-500 mb-4`}></i>
               <h3 className="text-xl font-bold mb-2">{service.title}</h3>
               <p className="text-gray-400">{service.description}</p>
             </div>

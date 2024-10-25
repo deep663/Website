@@ -17,7 +17,7 @@ function Hero() {
           We help brands grow and engage their audience through tailored strategies, creative content, and expert management.
           Let us boost your online presence and drive results.
         </p>
-        <button className="bg-blue-400 text-slate-200 text-sm mt-6 py-2 px-6 md:px-8 rounded-full font-semibold hover:bg-gray-600 transition">
+        <button className="bg-cyan-500 text-slate-200 text-sm mt-6 py-2 px-6 md:px-8 rounded-full font-semibold hover:bg-gray-600 transition">
           LOG IN
         </button>
       </div>

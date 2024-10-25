@@ -13,9 +13,9 @@ const Header = () => {
     <header className="bg-black text-white p-4 fixed top-0 w-full z-20 scroll-auto">
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-lg md:text-xl text-cyan-500 font-bold">
-          <a href="/">
+          <Link to="/">
             BINYTE
-          </a>
+          </Link>
         </h1>
         {/* Hamburger Menu for mobile */}
         <div className="md:hidden">
@@ -50,19 +50,19 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <a href="/services" className="hover:text-cyan-500 transition">
+              <Link to="/services" className="hover:text-cyan-500 transition">
                 SERVICES
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-cyan-500 transition">
+              <Link to="/#" className="hover:text-cyan-500 transition">
                 BLOG
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/#contact" className="hover:text-cyan-500 transition">
+              <Link to="/#contact" className="hover:text-cyan-500 transition">
                 CONTACT US
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
@@ -75,29 +75,29 @@ const Header = () => {
         <nav className="md:hidden">
           <ul className="flex flex-col space-y-4 mt-4 text-center text-base">
             <li>
-              <a href="/#" className="hover:text-blue-300 transition">
+              <Link to="/#" className="hover:text-blue-300 transition">
                 HOME
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/#about " className="hover:text-blue-300 transition">
+              <Link to="/about " className="hover:text-blue-300 transition">
                 ABOUT US
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/#services" className="hover:text-blue-300 transition">
+              <Link to="/services" className="hover:text-blue-300 transition">
                 SERVICES
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/#" className="hover:text-blue-300 transition">
+              <Link to="/#" className="hover:text-blue-300 transition">
                 BLOG
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/#contact" className="hover:text-blue-300 transition">
+              <Link to="/#contact" className="hover:text-blue-300 transition">
                 CONTACT US
-              </a>
+              </Link>
             </li>
             <li>
               <button className="bg-slate-200 text-black text-sm py-2 px-4 rounded-full font-semibold hover:bg-slate-300 transition">

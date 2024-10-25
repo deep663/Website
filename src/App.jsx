@@ -5,6 +5,8 @@ import Footer from './components/Footer';
 import About from './pages/AboutPage';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ServicesPage from './pages/ServicesPage';
+import Login from './pages/LoginPage';
+import Register from './pages/RegisterPage';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<ServicesPage />} />
+          <Route path="/login" element={<Login/>} />
+          <Route path="/register" element={<Register/>} />
           <Route path="*" element={<Home />} />
         </Routes>
         <Footer />

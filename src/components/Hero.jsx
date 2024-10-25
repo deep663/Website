@@ -2,7 +2,7 @@ function Hero() {
   return (
     <section className="text-white h-screen relative flex items-center justify-center bg-transparent ">
       <video
-        src="src/assets/video1.mp4"
+        src="src/assets/video1.webm"
         autoPlay
         loop
         muted

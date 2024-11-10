@@ -1,20 +1,24 @@
 const testimonialsData = [
   {
+    image: './user1.webp',
     name: 'MARK TWAIN',
     role: 'Blinyte User',
     review: '"Blinyte transformed our social media presence! Their creative strategies boosted engagement and brought us a ton of new followers. Highly recommend!"',
   },
   {
+    image: './user2.webp',
     name: 'Alex Deck',
     role: 'Blinyte User',
     review: '"Thanks to Blinyte, our brand\'s online visibility has skyrocketed. Their team is professional, easy to work with, and delivers great results."',
   },
   {
+    image: './user3.webp',
     name: 'Rishi Mehta',
     role: 'Blinyte User',
     review: '"Blinyte\'s content is always fresh and on point. They understand our brand perfectly and have taken our social media to the next level."',
   },
   {
+    image: './user4.webp',
     name: 'Diya Singh',
     role: 'Blinyte User',
     review: '"The team at Blinyte has been amazing in managing our social media. Our community is more active, and we\'ve seen real growth in followers and sales!"',
@@ -32,7 +36,8 @@ const Testimonials = () => {
           <div key={index} className="bg-gray-800 p-6 rounded-lg max-w-xs flex flex-col items-center">
             {/* Profile Image Placeholder */}
             <div className="w-16 h-16 bg-gray-700 rounded-full mb-4 flex items-center justify-center">
-              <span className="text-gray-500">No Image</span>
+              <img src={testimonial.image} alt="Profile" className="w-full h-full object-cover rounded-full" />
+              {/* <span className="text-gray-500">No Image</span> */}
             </div>
             {/* Star Ratings */}
             <div className="flex justify-center mb-4">

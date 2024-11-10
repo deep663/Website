@@ -19,7 +19,7 @@ const testimonialsData = [
   },
   {
     image: './user4.webp',
-    name: 'Diya Singh',
+    name: 'Devan Singh',
     role: 'Blinyte User',
     review: '"The team at Blinyte has been amazing in managing our social media. Our community is more active, and we\'ve seen real growth in followers and sales!"',
   },

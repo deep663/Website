@@ -48,7 +48,7 @@ const Projects = () => {
           </p>
         </div>
         <div className="w-full px-4 md:px-16">
-          <div className="relative top-10 flex justify-center ">
+          <div className="relative top-8 md:top-10 flex justify-center ">
             <div className="bg-gray-800 p-3 md:p-4 rounded-full">
               <i className="fas fa-plus text-xl md:text-4xl"></i>
             </div>

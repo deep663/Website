@@ -1,3 +1,6 @@
+import { useState } from "react";
+import PopUpCard from "./PopUpModel";
+
 const servicesData = [
   {
     icon: 'fas fa-video',
@@ -32,6 +35,16 @@ const servicesData = [
 ];
 
 const Services = () => {
+  const [selectedService, setSelectedService] = useState(null);
+
+  const handleCardClick = (service) => {
+    setSelectedService(service);
+  };
+
+  const handleClose = () => {
+    setSelectedService(null);
+  };
+
   return (
     <div id="services" className="flex items-center justify-center min-h-screen bg-black text-white">
       <div className="max-w-5xl mx-auto p-6">
@@ -50,7 +63,11 @@ const Services = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {servicesData.map((service, index) => (
-            <div key={index} className="bg-gray-800 p-6 rounded-lg text-center hover:bg-gray-700 transition duration-300">
+            <div
+              key={index}
+              onClick={() => handleCardClick(service)}
+              className="bg-gray-800 p-6 rounded-lg text-center hover:bg-gray-700 transition duration-300 cursor-pointer"
+            >
               <i className={`${service.icon} text-4xl text-cyan-500 mb-4`}></i>
               <h3 className="text-xl font-bold mb-2">{service.title}</h3>
               <p className="text-gray-400">{service.description}</p>
@@ -58,6 +75,9 @@ const Services = () => {
           ))}
         </div>
       </div>
+      {selectedService && (
+        <PopUpCard onClose={handleClose} service={selectedService} />
+      )}
     </div>
   );
 };

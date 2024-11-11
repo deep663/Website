@@ -69,12 +69,12 @@ const Footer = () => {
             <div className="mt-4 mb-8 border-t border-cyan-500 w-1/3"></div>
             <ul className="mt-2 space-y-2 text-md text-gray-400">
               <li>
-                <a href="#" className="hover:text-cyan-500">
+                <a href="/blog" className="hover:text-cyan-500">
                   Blog
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-cyan-500">
+                <a href="/contact" className="hover:text-cyan-500">
                   Contact Us
                 </a>
               </li>
@@ -84,7 +84,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#testimonials" className="hover:text-cyan-500">
+                <a href="/#testimonials" className="hover:text-cyan-500">
                   Testimonials
                 </a>
               </li>

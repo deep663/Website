@@ -136,7 +136,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to="/#" className="hover:text-blue-300 transition">
+              <Link to="/projects" className="hover:text-blue-300 transition">
                 BLOG
               </Link>
             </li>

@@ -1,8 +1,18 @@
-# React + Vite
+# Handcrafted Gifts Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Handcrafted Gifts Website! This is portfolio website for handcrafted gifts where users can explore and purchase beautifully crafted handmade gifts.
 
-Currently, two official plugins are available:
+## Features
+- **Home Page** : Showcases featured handcrafted items.
+- **Gallery Page** : Displays all available handmade gifts.
+- **Contact Section** : Contact with the Owner.
+- **Responsive Design** : Optimized for desktop and mobile devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## SnapShots 
+
+![markuphero-VUBocNsNjkXCuCbu3MG8](https://github.com/user-attachments/assets/b8f2517e-5acf-44cb-b064-a464b4b078bf)
+
+
+## License
+This project is licensed under the MIT License.

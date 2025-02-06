@@ -1,6 +1,6 @@
 # Binyte - Portfolio website
 A portfolio wesite fro Binyte. Binyte is a full-service social media agency based in India.
-[Live-view](https://website2-dusky.vercel.app/
+[Live-view](https://website2-dusky.vercel.app/)
 
 ## Features
 - User authentication (Register/Login)

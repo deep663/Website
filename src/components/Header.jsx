@@ -68,7 +68,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <a href="/contact" className="hover:text-cyan-500 transition">
+              <a href="/#contact" className="hover:text-cyan-500 transition">
                 CONTACT US
               </a>
             </li>

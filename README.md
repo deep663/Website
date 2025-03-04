@@ -2,15 +2,6 @@
 A portfolio wesite fro Binyte. Binyte is a full-service social media agency based in India.
 [Live-view](https://website2-dusky.vercel.app/)
 
-## Features
-- User authentication (Register/Login)
-- Track daily exercises
-- Earn points for completed tasks
-- Dashboard to monitor progress
-- Redux for state management
-- Protected routes for authenticated users
-- Responsive UI with Tailwind CSS
-
 ## Tech Stack
 - React, Vite, Redux, React Router, Tailwind CSS
 
